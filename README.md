@@ -2,19 +2,34 @@
 
 ![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)
 
-## The challenge
+### The challenge
 
-Your challenge is to build out this results summary component and get it looking as close to the design as possible.
-
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
-We provide the data for the results in a local `data.json` file. So you can use that to add the results and total score dynamically if you choose.
-
-Your users should be able to:
+Users should be able to:
 
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 - **Bonus**: Use the local JSON data to dynamically populate the content
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Desktop-first workflow
 
 
+### What I learned
+using flex box and media queries for responsive design
+
+
+### Continued development
+I plan on revisiting this project and building from scratch using a css framework such as bootstrap or react.
+
+## Acknowledgments
+
+Thank you, pls feed back would be really appreciated if there is a way to improve my code....
 
