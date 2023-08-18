@@ -11,8 +11,8 @@ Users should be able to:
 - **Bonus**: Use the local JSON data to dynamically populate the content
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/Meetkamal256/Results-summary-component-frontend-mentor-challenge
+- Live Site URL: https://results-summary-component-frontend-mentor-challenge-cyan.vercel.app/
 
 ### Built with
 
