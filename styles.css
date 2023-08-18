@@ -49,6 +49,7 @@
 #leftCard .yourResult{
     color: var(--Light-lavender);
     margin-bottom: 1rem;
+    font-weight: 500;
 }
 
 #leftCard .resultBox{
@@ -84,6 +85,8 @@
 .bottom-text p{
     color: var(--Light-lavender);
     margin-bottom: 15px;
+    font-weight: 500;
+    
 }
 
 
@@ -100,6 +103,7 @@
     text-align: left;
     color: var(--grayish-blue);
     margin-bottom: 10px;
+    font-weight: 600;
 }
 
 .score{
