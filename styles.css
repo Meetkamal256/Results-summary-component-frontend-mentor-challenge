@@ -248,36 +248,36 @@
     }
     
     /* right card section  */
-
+    
     #rightCard{
         flex-basis: 100%;
         padding: 30px
     }
-
+    
     #rightCard h4{
         font-size: 2rem;
         margin-bottom: 15px;
     }
-
+    
     .scoreReaction, .scoreMemory, .scoreVerbal, .scoreVisual{
         border-radius: 5px;
         padding: 10px;
         width: 100%;
         margin-bottom: 15px;
     }
-
+    
     .scoreReaction .leftStat span, .scoreMemory .leftStat span, .scoreVerbal .leftStat span, .scoreVisual .leftStat span{
         font-size: 25px;
     }
-
+    
     .scoreReaction .grey-text, .scoreMemory .grey-text, .scoreVerbal .grey-text, .scoreVisual .grey-text{
         font-size: 1.5rem;
     }
-
+    
     .scoreReaction .light-text, .scoreMemory .light-text, .scoreVerbal .light-text, .scoreVisual .light-text{
         font-size: 1.5rem;
     }
-
+    
     .btn{
         border-radius: 20px;
         padding: 20px;
