@@ -218,73 +218,156 @@
     /* left card section */
     #leftCard{
         border-radius: 0px 0px 50px 50px;
-        padding: 30px;
+        padding: 20px;
         flex-basis: 100%;
     }
     
     #leftCard .yourResult{
-        font-size: 2rem;
+        font-size: 1rem;
     }
     
     #leftCard .resultBox{
-        height: 200px;
-        width: 200px;
+        height: 170px;
+        width: 170px;
     }
     
     #leftCard .resultBox h4{
-        font-size: 4rem;
+        font-size: 3rem;
     }
     
     #leftCard .resultBox span{
-        font-size: 25px;
+        font-size: 12px;
     }
     
     .bottom-text h4{
-        font-size: 2.3rem;
+        font-size: 1.1rem;
     }
     
     .bottom-text p{
-        font-size: 1.5rem;
+        font-size: 15px;
     }
     
     /* right card section  */
     
     #rightCard{
         flex-basis: 100%;
-        padding: 30px
+        padding: 25px
     }
     
     #rightCard h4{
-        font-size: 2rem;
+        font-size: 1rem;
         margin-bottom: 15px;
     }
     
     .scoreReaction, .scoreMemory, .scoreVerbal, .scoreVisual{
         border-radius: 5px;
-        padding: 10px;
+        padding: 5px;
         width: 100%;
         margin-bottom: 15px;
     }
     
     .scoreReaction .leftStat span, .scoreMemory .leftStat span, .scoreVerbal .leftStat span, .scoreVisual .leftStat span{
-        font-size: 25px;
+        font-size: 13px;
     }
     
     .scoreReaction .grey-text, .scoreMemory .grey-text, .scoreVerbal .grey-text, .scoreVisual .grey-text{
-        font-size: 1.5rem;
+        font-size: 13px;
     }
     
     .scoreReaction .light-text, .scoreMemory .light-text, .scoreVerbal .light-text, .scoreVisual .light-text{
-        font-size: 1.5rem;
+        font-size: 13px;
     }
     
     .btn{
         border-radius: 20px;
-        padding: 20px;
-        font-size: 2rem;
+        padding: 7px;
+        font-size: 15px;
     }    
 
 }
 
 
 
+/* responsive styles for devices btw 576px and 768px */
+
+@media(min-width: 576px) and (max-width: 768px){
+    #container{
+        width: 100vw;
+    }
+    
+    #card{
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+    }
+    /* left card section */
+    #leftCard{
+        border-radius: 20px;
+        padding: 25px;
+        flex-basis: 50%;
+    }
+    
+    #leftCard .yourResult{
+        font-size: 1rem;
+    }
+    
+    #leftCard .resultBox{
+        height: 180px;
+        width: 180px;
+    }
+    
+    #leftCard .resultBox h4{
+        font-size: 3.5rem;
+    }
+    
+    #leftCard .resultBox span{
+        font-size: 15px;
+    }
+    
+    .bottom-text h4{
+        font-size: 25px;
+    }
+    
+    .bottom-text p{
+        font-size: 15px;
+    }
+    
+    /* right card section  */
+    
+    #rightCard{
+        flex-basis: 50%;
+        padding: 30px
+    }
+    
+    #rightCard h4{
+        font-size: 1rem;
+    }
+    
+    .scoreReaction, .scoreMemory, .scoreVerbal, .scoreVisual{
+        border-radius: 5px;
+        padding: 3px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    .scoreReaction .leftStat span, .scoreMemory .leftStat span, .scoreVerbal .leftStat span, .scoreVisual .leftStat span{
+        font-size: 16px;
+    }
+    
+    .scoreReaction .grey-text, .scoreMemory .grey-text, .scoreVerbal .grey-text, .scoreVisual .grey-text{
+        font-size: 16px;
+    }
+    
+    .scoreReaction .light-text, .scoreMemory .light-text, .scoreVerbal .light-text, .scoreVisual .light-text{
+        font-size: 16px;
+    }
+    
+    .btn{
+        border-radius: 20px;
+        padding: 10px;
+        font-size: 15px;
+    }    
+
+}
+
+/* responsive styles for devices btw 768px and 102ppx */
